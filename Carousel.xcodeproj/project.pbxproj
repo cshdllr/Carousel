@@ -14,6 +14,7 @@
 		FDB167FD1BE0745E008D40B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB167FB1BE0745E008D40B1 /* LaunchScreen.storyboard */; };
 		FDB168081BE0745E008D40B1 /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB168071BE0745E008D40B1 /* CarouselTests.swift */; };
 		FDB168131BE0745E008D40B1 /* CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB168121BE0745E008D40B1 /* CarouselUITests.swift */; };
+		FDB168211BE074F8008D40B1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB168201BE074F8008D40B1 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FDB1680E1BE0745E008D40B1 /* CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB168121BE0745E008D40B1 /* CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUITests.swift; sourceTree = "<group>"; };
 		FDB168141BE0745E008D40B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB168201BE074F8008D40B1 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				FDB167F21BE0745E008D40B1 /* AppDelegate.swift */,
+				FDB168201BE074F8008D40B1 /* Common.swift */,
 				FDB167F41BE0745E008D40B1 /* ViewController.swift */,
 				FDB167F61BE0745E008D40B1 /* Main.storyboard */,
 				FDB167F91BE0745E008D40B1 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDB167F51BE0745E008D40B1 /* ViewController.swift in Sources */,
+				FDB168211BE074F8008D40B1 /* Common.swift in Sources */,
 				FDB167F31BE0745E008D40B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
