@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD5934251BE6D43A00A5F664 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5934241BE6D43A00A5F664 /* TutorialViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FD5934271BE6E1D100A5F664 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5934261BE6E1D100A5F664 /* FeedViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FD5934291BE6E31200A5F664 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5934281BE6E31200A5F664 /* ConversationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FD59342B1BE6E4E800A5F664 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59342A1BE6E4E800A5F664 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		FDB167F31BE0745E008D40B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB167F21BE0745E008D40B1 /* AppDelegate.swift */; };
 		FDB167F51BE0745E008D40B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB167F41BE0745E008D40B1 /* ViewController.swift */; };
 		FDB167F81BE0745E008D40B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB167F61BE0745E008D40B1 /* Main.storyboard */; };
@@ -15,6 +19,7 @@
 		FDB168081BE0745E008D40B1 /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB168071BE0745E008D40B1 /* CarouselTests.swift */; };
 		FDB168131BE0745E008D40B1 /* CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB168121BE0745E008D40B1 /* CarouselUITests.swift */; };
 		FDB168211BE074F8008D40B1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB168201BE074F8008D40B1 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
+		FDF4D1DC1BE3C01D0006C3BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D1DB1BE3C01D0006C3BF /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD5934241BE6D43A00A5F664 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		FD5934261BE6E1D100A5F664 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		FD5934281BE6E31200A5F664 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		FD59342A1BE6E4E800A5F664 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FDB167EF1BE0745E008D40B1 /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB167F21BE0745E008D40B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB167F41BE0745E008D40B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		FDB168121BE0745E008D40B1 /* CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUITests.swift; sourceTree = "<group>"; };
 		FDB168141BE0745E008D40B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB168201BE074F8008D40B1 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		FDF4D1DB1BE3C01D0006C3BF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,9 @@
 		FDB167E61BE0745E008D40B1 = {
 			isa = PBXGroup;
 			children = (
+				FD59342A1BE6E4E800A5F664 /* SettingsViewController.swift */,
+				FD5934261BE6E1D100A5F664 /* FeedViewController.swift */,
+				FD5934281BE6E31200A5F664 /* ConversationsViewController.swift */,
 				FDB167F11BE0745E008D40B1 /* Carousel */,
 				FDB168061BE0745E008D40B1 /* CarouselTests */,
 				FDB168111BE0745E008D40B1 /* CarouselUITests */,
@@ -103,6 +116,8 @@
 				FDB168201BE074F8008D40B1 /* Common.swift */,
 				FDB167F41BE0745E008D40B1 /* ViewController.swift */,
 				FDB167F61BE0745E008D40B1 /* Main.storyboard */,
+				FDF4D1DB1BE3C01D0006C3BF /* LoginViewController.swift */,
+				FD5934241BE6D43A00A5F664 /* TutorialViewController.swift */,
 				FDB167F91BE0745E008D40B1 /* Assets.xcassets */,
 				FDB167FB1BE0745E008D40B1 /* LaunchScreen.storyboard */,
 				FDB167FE1BE0745E008D40B1 /* Info.plist */,
@@ -261,9 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF4D1DC1BE3C01D0006C3BF /* LoginViewController.swift in Sources */,
 				FDB167F51BE0745E008D40B1 /* ViewController.swift in Sources */,
+				FD5934291BE6E31200A5F664 /* ConversationsViewController.swift in Sources */,
+				FD5934251BE6D43A00A5F664 /* TutorialViewController.swift in Sources */,
 				FDB168211BE074F8008D40B1 /* Common.swift in Sources */,
+				FD5934271BE6E1D100A5F664 /* FeedViewController.swift in Sources */,
 				FDB167F31BE0745E008D40B1 /* AppDelegate.swift in Sources */,
+				FD59342B1BE6E4E800A5F664 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +508,7 @@
 				FDB168191BE0745E008D40B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDB1681A1BE0745E008D40B1 /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +517,7 @@
 				FDB1681C1BE0745E008D40B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDB1681D1BE0745E008D40B1 /* Build configuration list for PBXNativeTarget "CarouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +526,7 @@
 				FDB1681F1BE0745E008D40B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
