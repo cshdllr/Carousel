@@ -28,7 +28,7 @@ Hours spent: 10
   * [x] User can log out.
 
 
-![demo](https://github.com/cshdllr/Dropbox-Prototype/blob/master/dropbox%20demo.gif)
+![demo](https://github.com/cshdllr/Carousel/blob/master/carousel%20demo.gif)
 
 
 
