@@ -333,12 +333,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="iPc-o6-7p9">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="iPc-o6-7p9">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="feed" id="Eza-B6-0z2">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1564"/>
+                                        <rect key="frame" x="0.0" y="63" width="320" height="1564"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
@@ -378,6 +378,10 @@
                     <navigationItem key="navigationItem" id="Dml-Se-LBd"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="imageView" destination="Eza-B6-0z2" id="4Ua-sY-gIR"/>
+                        <outlet property="scrollView" destination="iPc-o6-7p9" id="d9B-Br-eO8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1h4-8j-Nb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

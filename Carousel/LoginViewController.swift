@@ -112,7 +112,12 @@ class LoginViewController: UIViewController {
             
         } else {
             // incorrect email pw
-            delay(1){
+            activityIndicator.alpha = 1
+            activityIndicator.startAnimating()
+            delay(2){
+                self.activityIndicator.alpha = 0
+                self.activityIndicator.stopAnimating()
+                
                 let alertBadPasswordController = UIAlertController(title: "Please try again", message: "The email or password are not correct", preferredStyle: .Alert)
                 let OKAction = UIAlertAction(title: "OK", style: .Default) { (action) in
                     // handle response here.
