@@ -103,20 +103,15 @@
                                 <animations/>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="bLC-fz-EB4">
-                                <rect key="frame" x="0.0" y="68" width="320" height="1068"/>
+                                <rect key="frame" x="0.0" y="74" width="320" height="562"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="HNX-3f-2FI">
-                                        <rect key="frame" x="-5" y="17" width="325" height="201"/>
+                                        <rect key="frame" x="-5" y="11" width="325" height="201"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="login_form" id="PgC-0r-NNc">
                                                 <rect key="frame" x="5" y="88" width="320" height="113"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <animations/>
-                                            </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="login_text" id="fVU-2W-BAr">
-                                                <rect key="frame" x="5" y="0.0" width="320" height="70"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <animations/>
                                             </imageView>
@@ -125,7 +120,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" id="G0p-7H-Ksn">
                                                 <rect key="frame" x="24" y="107" width="277" height="30"/>
@@ -134,11 +129,16 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="login_text" id="fVU-2W-BAr">
+                                                <rect key="frame" x="5" y="18" width="320" height="70"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <animations/>
+                                            </imageView>
                                         </subviews>
                                         <animations/>
                                     </view>
                                     <view contentMode="scaleToFill" id="F0a-Sf-jni">
-                                        <rect key="frame" x="0.0" y="354" width="320" height="104"/>
+                                        <rect key="frame" x="0.0" y="348" width="320" height="104"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="sign_in_buttons" id="nQS-ZJ-VMh">

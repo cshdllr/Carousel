@@ -22,10 +22,6 @@ class LoginViewController: UIViewController {
     var fieldParentInitialY: CGFloat!
     var buttonParentInitialY: CGFloat!
     
-    let buttonParentOffset: CGFloat! = 230
-    let fieldParentOffset: CGFloat! = 115
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -73,9 +69,12 @@ class LoginViewController: UIViewController {
 
     func keyboardWillShow(notification: NSNotification!) {
         
-        self.fieldParentView.frame.origin = CGPoint(x: self.fieldParentView.frame.origin.x, y: self.fieldParentInitialY - fieldParentOffset)
+        buttonParentView.transform = CGAffineTransformMakeTranslation(0, -180)
+        fieldParentView.transform = CGAffineTransformMakeTranslation(0, -70)
         
-        self.buttonParentView.frame.origin = CGPoint(x: self.buttonParentView.frame.origin.x, y: self.buttonParentInitialY - buttonParentOffset)
+        let maxContentOffsetY = scrollView.contentSize.height - scrollView.frame.size.height
+        
+        scrollView.contentOffset.y = maxContentOffsetY
         
         scrollView.scrollEnabled = true
     }
